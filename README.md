@@ -15,11 +15,11 @@ The prestimulus intervall of all recorded protocol sweeps have the same structur
 
 2. Long Square Pulse
 
-a) 1 repetetion of several sweeps of (1000 ms -105! pA (15! pA increment until supratheshold + 150/300! pA [depending on input resistance] are reached) Step \\  8500 ms 0 pA (0 pA increment) Step)
+a) 1 repetetion of several sweeps of (1000 ms -105! pA (15! pA increment until supratheshold + 150/300! pA [depending on input resistance] are reached) Step \\  8500 ms 0 pA (0 pA increment) Step) \\ Start-to-Start Interval: 12! sec
 b) 2-3 (Depending if 2a contains a sweep with a single spike = rheobase) repetetion of a single sweep of (1000 ms rheobase level pA Step \\ 8500 ms -105! pA (15! pA increment) Step 
 
 3. Short Square Pulse
 
-a) 1 repetetion of several sweeps of (3 ms 100 pA (10 pA increment) Step \\  3497 ms 0 pA (0 pA increment) Step) 
-b) at least 3 more repetitions of a single sweep of (3 ms first supratreshold level  Step \\  3497 ms 0 pA (0 pA increment) Step)
+a) 1 repetetion of several sweeps of (3 ms 100 pA (10 pA increment) Step \\  1497 ms 0 pA (0 pA increment) Step)  \\ Start-to-Start Interval: 4 sec
+b) at least 3 more repetitions of a single sweep of (3 ms first supratreshold level  Step \\  1497 ms 0 pA (0 pA increment) Step) \\ Start-to-Start Interval: 5 sec
 c) if 3b did not produce an action potential at every repetition repeat 3b with 10 pA higher current step
