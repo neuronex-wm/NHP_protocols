@@ -6,8 +6,12 @@ Please make sure that the protocols you use are in line with the consesus templa
 
 Here is a preliminary working template based on protocols of the AIBS cell type database (see http://help.brain-map.org/download/attachments/8323525/CellTypes_Ephys_Overview.pdf?version=2&modificationDate=1508180425883&api=v2). Deviation are marked with ! . Please follow protocol name, order and variables as closly as possible/sensible given the differences in aquisition equipment:
 
+0. General features 
+
 The prestimulus intervall of all recorded protocol sweeps have the same structure containing a small and short hyperpolarizing test pulse:
 40 ms 0 pA (no increment) Step \\ 10 ms -25 pA (no increment) Step \\ 450 ms 0 pA (no increment) Step
+
+Sampling frequency for continous amplifiers is 50kHz
 
 1. Ramp
 
