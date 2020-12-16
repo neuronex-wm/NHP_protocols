@@ -8,7 +8,7 @@ Here is a preliminary working template based on protocols of the AIBS cell type 
 
 **0. General features** 
 
-  __**a.** The prestimulus intervall of all recorded protocol sweeps have the same structure containing a small and short hyperpolarizing test pulse: <br />
+  __**a.** The prestimulus intervall of all recorded protocol sweeps have the same structure containing a small and short hyperpolarizing! test pulse: <br />
      40 ms 0 pA (no increment) Step \\ 10 ms -25 pA (no increment) Step \\ 450 ms 0 pA (no increment) Step <br />
 
   __**b.** Sampling frequency for continous amplifiers is 50kHz. In dicontinous amplifiers as high as sensible (at least 25kHz) <br /> 
