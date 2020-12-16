@@ -8,23 +8,23 @@ Here is a preliminary working template based on protocols of the AIBS cell type 
 
 **0. General features** 
 
-  a. The prestimulus intervall of all recorded protocol sweeps have the same structure containing a small and short hyperpolarizing test pulse: <br />
+  __**a.** The prestimulus intervall of all recorded protocol sweeps have the same structure containing a small and short hyperpolarizing test pulse: <br />
      40 ms 0 pA (no increment) Step \\ 10 ms -25 pA (no increment) Step \\ 450 ms 0 pA (no increment) Step <br />
 
-  b. Sampling frequency for continous amplifiers is 50kHz. In dicontinous amplifiers as high as sensible (at least 25kHz) <br /> 
+  __**b.** Sampling frequency for continous amplifiers is 50kHz. In dicontinous amplifiers as high as sensible (at least 25kHz) <br /> 
 
 **1. Ramp**
 
-  a. 3 repetetions of single sweep of (20 s 0-to-500 pA Ramp (slope: 25 pA/s) terminated manually after a series of action potentials are acquired) with an <br /> 
+  __**a.** 3 repetetions of single sweep of (20 s 0-to-500 pA Ramp (slope: 25 pA/s) terminated manually after a series of action potentials are acquired) with an 
      interstimulus\interrepettion intervall of >10 seconds.
 
 **2. Long Square Pulse**
 
-  a. 1 repetetion of several sweeps of (1000 ms -105! pA (15! pA increment until supratheshold + 150/300! pA [depending on input resistance] are reached) Step \\  8500 ms 0       pA (0 pA increment) Step) \\ Start-to-Start Interval: 12! sec 
-  b. 2-3 (Depending if 2a contains a sweep with a single spike = rheobase) repetetion of a single sweep of (1000 ms rheobase level pA Step \\ 8500 ms -105! pA (15! pA                increment) Step 
+   __**a.** 1 repetetion of several sweeps of (1000 ms -105! pA (15! pA increment until supratheshold + 150/300! pA [depending on input resistance] are reached) Step \\  8500 ms  0 pA (0 pA increment) Step) \\ Start-to-Start Interval: 12! sec 
+  __**b.** 2-3 (Depending if 2a contains a sweep with a single spike = rheobase) repetetion of a single sweep of (1000 ms rheobase level pA Step \\ 8500 ms -105! pA (15! pA                increment) Step 
 
 **3. Short Square Pulse**
 
-  a. 1 repetetion of several sweeps of (3 ms 100 pA (10 pA increment) Step \\  1497 ms 0 pA (0 pA increment) Step)  \\ Start-to-Start Interval: 4 sec <br /> 
-  b. at least 3 more repetitions of a single sweep of (3 ms first supratreshold level  Step \\  1497 ms 0 pA (0 pA increment) Step) \\ Start-to-Start Interval: 5 sec  <br />
-  c. if 3b did not produce an action potential at every repetition repeat 3b with 10 pA higher current step <br />
+  __**a.** 1 repetetion of several sweeps of (3 ms 100 pA (10 pA increment) Step \\  1497 ms 0 pA (0 pA increment) Step)  \\ Start-to-Start Interval: 4 sec <br /> 
+  __**b.**at least 3 more repetitions of a single sweep of (3 ms first supratreshold level  Step \\  1497 ms 0 pA (0 pA increment) Step) \\ Start-to-Start Interval: 5 sec  <br />
+ __**c.** if 3b did not produce an action potential at every repetition repeat 3b with 10 pA higher current step <br />
