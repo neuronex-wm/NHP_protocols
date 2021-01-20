@@ -6,6 +6,9 @@ Please make sure that the protocols you use are in line with the consesus templa
 
 Here is a preliminary working template based on protocols of the first batch of the AIBS cell type database (see http://help.brain-map.org/download/attachments/8323525/CellTypes_Ephys_Overview.pdf?version=2&modificationDate=1508180425883&api=v2).  Deviation are marked with ! . Please follow protocol name, order and variables as closly as possible/sensible given the differences in aquisition equipment:
 
+
+
+
 **0. General features** 
 
   __**a.** The prestimulus intervall of all recorded protocol sweeps should have the same structure including a small and short hyperpolarizing! test pulse: <br />
@@ -20,8 +23,8 @@ Here is a preliminary working template based on protocols of the first batch of 
 
 **2. Long Square Pulse**
 
-   __**a.** 1 repetetion of several sweeps of (1000 ms -105! pA (15! pA increment until supratheshold + 150/300! pA [depending on input resistance] are reached) Step \\  8500 ms  0 pA (0 pA increment) Step) \\ Start-to-Start Interval: 12! sec <br /> 
-  __**b.** 2-3 (Depending if 2a contains a sweep with a single spike = rheobase) repetetion of a single sweep of (1000 ms rheobase level pA Step \\ 8500 ms -105! pA (15! pA                increment) Step 
+   __**a.** 1 repetetion of sweeps of (1000 ms Step of -110! pA (+20 pA increment over sweeps until supratheshold level + 120/260 pA [depending on input resistance] are reached)  \\  8500 ms  0 pA (0 pA increment) Step) \\ Start-to-Start Interval: 12! sec <br /> 
+  __**b.** 2-3 repetetion of a single sweep of 1000 ms rheobase level pA Step (Depending if 2a contains a sweep with a single spike = rheobase) \\  8500 ms  0 pA (0 pA increment) Step)
 
 **3. Short Square Pulse**
 
