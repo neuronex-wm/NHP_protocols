@@ -8,10 +8,10 @@ Here is a preliminary working template based on protocols of the first batch of 
 
 **0. General features** 
 
-  __**a.** The prestimulus intervall of all recorded protocol sweeps have the same structure containing a small and short hyperpolarizing! test pulse: <br />
-     40 ms 0 pA (no increment) Step \\ 10 ms -25 pA (no increment) Step \\ 450 ms 0 pA (no increment) Step <br />
+  __**a.** The prestimulus intervall of all recorded protocol sweeps should have the same structure including a small and short hyperpolarizing! test pulse: <br />
+     40 ms 0 pA Step (no increment over sweeps) \\ 10 ms -25 pA Step (no increment over sweeps)  \\ 450 ms 0 pA Step  (no increment over sweeps) <br />
 
-  __**b.** Sampling frequency for continous amplifiers is 50kHz. In dicontinous amplifiers as high as sensible (at least 25kHz) <br /> 
+  __**b.** Sampling frequency for continous amplifiers is 50kHz. In discontinous amplifiers as high as sensible/possible (at least 25kHz) <br /> 
 
 **1. Ramp**
 
