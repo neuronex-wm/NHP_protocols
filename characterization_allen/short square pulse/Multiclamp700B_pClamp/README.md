@@ -1,0 +1,1 @@
+If recording from cells with extremely low input resistance (< 50 MOhm) the pipette compensation with Multiclamp 700B, will be off significantly unless the feedback resistor is switched from 500 to 50 MOhm. Hence we have protocols for both.
