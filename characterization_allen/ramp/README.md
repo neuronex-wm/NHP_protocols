@@ -1,0 +1,1 @@
+Using the combination of Multiclamp700B and pClamp does not seem to offer the option of manually terminiating within a sweep without discarding the recorded data.
