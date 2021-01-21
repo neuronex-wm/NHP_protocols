@@ -12,7 +12,7 @@ Different "stimulus segments"/epoches are separated by "\\".
 
 **0. General features** 
 
-  __**a.** The prestimulus intervall of all recorded protocol sweeps should have the same structure including a small and short hyperpolarizing! test pulse: <br />
+  __**a.** The prestimulus intervall of all recorded sweeps should have the same structure including a small and short hyperpolarizing! test pulse: <br />
      40 ms 0 pA Step (no increment over sweeps) \\ 10 ms -25 pA Step (no increment over sweeps)  \\ 450 ms 0 pA Step  (no increment over sweeps) <br />
 
   __**b.** Sampling frequency for continous amplifiers is 50kHz. In discontinous amplifiers as high as sensible/possible (at least 25kHz)! <br /> 
