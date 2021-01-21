@@ -1,4 +1,5 @@
 # NHP_protocols
+
 Collection of protocols for recordings for the IRG2 Primate cell type database. The purpose of this repository is to facilitate and ensure standardized acquisition  protocols as well as to provide a platform to exchange files needed for data acquisition. The acquisition protocols are stored in a folder structure based on protocol type and recording equipment. A template in "proto-code" for the standardized non-PatchSeq protocols based on the Allen Insitute for Brain Science can be found [here](characterization_allen/template.md). Protocols that are part of the standardized characterization are stored in the respective [folder](characterization_allen/). In addition, protocols outside of the Allen characterization block like different kind of noise stimuli should have their own folder.  
 
 
