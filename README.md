@@ -33,4 +33,4 @@ Different "stimulus segments"/epoches are separated by "\\".
 
   __**a.** 1 repetetion of several sweeps of (3 ms 100 pA (10 pA increment) Step \\  1497 ms 0 pA (0 pA increment) Step)  \\ Start-to-Start Interval: 4 sec; AIBS actually uses 4 sec for subthreshold 5 sec for suprathreshold, but imho too complex for now <br /> 
   __**b.** at least 3 more repetitions of a single sweep of (3 ms first supratreshold level  Step \\  1497 ms 0 pA (0 pA increment) Step) \\ Start-to-Start Interval: 5 sec <br/>
- __**c.** if 3b did not produce an action potential at every repetition repeat 3b with 10 pA higher current step <br /> Side notes:
+ __**c.** if 3b did not produce an action potential at every repetition repeat 3b with 10 pA higher current step <br />
