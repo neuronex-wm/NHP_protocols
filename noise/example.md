@@ -1,1 +1,1 @@
-exmaple
+example
