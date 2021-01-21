@@ -21,12 +21,12 @@ Different "stimulus segments"/epoches are separated by "\\".
 
 **1. Ramp**
 
-  __**a.** 3 repetetions of single sweep of (20 s 0-to-500 pA Ramp (slope: 25 pA/s) terminated manually after a series of action potentials are acquired) with an 
+  __**a.** 3 repetetions of single sweep of \\ 20 s 0-to-500 pA Ramp (slope: 25 pA/s) terminated manually after a series of action potentials are acquired) with an 
      interstimulus\interrepettion intervall of >10 seconds.
 
 **2. Long Square Pulse**
 
-   __**a.** 1 repetetion of sweeps of (1000 ms Step of -110 pA (+20 pA increment over sweeps until supratheshold level + 160/260 pA [depending on input resistance] are reached)  \\  6500 ms  0 pA (0 pA increment) Step) \\  <br />  Start-to-Start Interval: 10 sec for all! The AIBS actually uses 10 sec at subthreshold level 17 sec for suprathreshold, but this would require at least two different long pulse protocols <br />  Comment: in rare cases with very low input resistance they start at -190 or -210 with a higher current increment  <br /> 
+   __**a.** 1 repetetion of sweeps \\ 1000 ms Step of -110 pA (+20 pA increment over sweeps until supratheshold level + 160/260 pA [depending on input resistance] are reached)  \\  6500 ms  0 pA (0 pA increment) Step) <br />  Start-to-Start Interval: 10 sec for all! AIBS actually uses 10 sec for subthreshold 17 sec for suprathreshold, but too complicated for now <br />  Comment: in rare cases with very low input resistance they start at -190 or -210 with a higher current increment  <br /> 
   __**b.** 2-3 repetetion of a single sweep of 1000 ms rheobase level pA Step (Depending if 2a contains a sweep with a single spike = rheobase) \\  8500 ms  0 pA (0 pA increment) Step) Comment:The AIBS makes sure that they have 3 repetetions of the rheobase level spike for each cell.
 
 **3. Short Square Pulse**
