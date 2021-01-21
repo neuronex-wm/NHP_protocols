@@ -17,8 +17,7 @@ Different "stimulus segments"/epoches are separated by "\\".
 
   __**b.** Sampling frequency for continous amplifiers is 50kHz. In discontinous amplifiers as high as sensible/possible (at least 25kHz)! <br /> 
   
-  __**c.** except when measuring the membrane potential within the first minute(s) after breakthrough, a holding current is applied to keep the baseline from drifting. The  
-           readjustment can be done either manually or automatically using algorithms as provided in MIES.
+  __**c.** except when measuring the membrane potential within the first minute(s) after breakthrough, a holding current is applied to keep the baseline from drifting. The readjustment can be done either manually or automatically using algorithms as provided in MIES.
 
 **1. Ramp**
 
