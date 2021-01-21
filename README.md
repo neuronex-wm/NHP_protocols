@@ -4,7 +4,8 @@ Collection of protocols for recordings for the IRG2 Primate cell type database. 
 Please make sure that the protocols you use are in line with the consesus template (see below) and upload these here. Only use the protocols uploaded here if you change your aquisition protocol update the respective file here.
 
 
-Here is a preliminary working template based on protocols of the first batch of the AIBS cell type database (see http://help.brain-map.org/download/attachments/8323525/CellTypes_Ephys_Overview.pdf?version=2&modificationDate=1508180425883&api=v2).  Deviation are marked with ! . Please follow protocol name, order and variables as closly as possible/sensible given the differences in aquisition equipment:
+Here is a preliminary working template based on protocols of the first batch of the AIBS cell type database (see http://help.brain-map.org/download/attachments/8323525/CellTypes_Ephys_Overview.pdf?version=2&modificationDate=1508180425883&api=v2 in the section Appendix: Stimulus Details). 
+  Deviation are marked with ! . Please follow protocol name, order and variables as closly as possible/sensible given the differences in aquisition equipment:
 
 
 
@@ -14,7 +15,7 @@ Here is a preliminary working template based on protocols of the first batch of 
   __**a.** The prestimulus intervall of all recorded protocol sweeps should have the same structure including a small and short hyperpolarizing! test pulse: <br />
      40 ms 0 pA Step (no increment over sweeps) \\ 10 ms -25 pA Step (no increment over sweeps)  \\ 450 ms 0 pA Step  (no increment over sweeps) <br />
 
-  __**b.** Sampling frequency for continous amplifiers is 50kHz. In discontinous amplifiers as high as sensible/possible (at least 25kHz) <br /> 
+  __**b.** Sampling frequency for continous amplifiers is 50kHz. In discontinous amplifiers as high as sensible/possible (at least 25kHz)! <br /> 
 
 **1. Ramp**
 
@@ -23,8 +24,8 @@ Here is a preliminary working template based on protocols of the first batch of 
 
 **2. Long Square Pulse**
 
-   __**a.** 1 repetetion of sweeps of (1000 ms Step of -110! pA (+20 pA increment over sweeps until supratheshold level + 120/260 pA [depending on input resistance] are reached)  \\  8500 ms  0 pA (0 pA increment) Step) \\ Start-to-Start Interval: 12! sec <br /> 
-  __**b.** 2-3 repetetion of a single sweep of 1000 ms rheobase level pA Step (Depending if 2a contains a sweep with a single spike = rheobase) \\  8500 ms  0 pA (0 pA increment) Step)
+   __**a.** 1 repetetion of sweeps of (1000 ms Step of -110 pA [Comment: in rare cases with very low input resistance they start at -190 or -210 with a higher current increment] (+20 pA increment over sweeps until supratheshold level + 120/260 pA [depending on input resistance] are reached)  \\  6500 ms  0 pA (0 pA increment) Step) \\ Start-to-Start Interval: 10 sec for all! Comment: The AIBS actually uses 10 sec at subthreshold level 17 sec for suprathreshold, but this would require at least two different long pulse protocols <br /> 
+  __**b.** 2-3 repetetion of a single sweep of 1000 ms rheobase level pA Step (Depending if 2a contains a sweep with a single spike = rheobase) \\  8500 ms  0 pA (0 pA increment) Step) Comment:The AIBS makes sure that they have 3 repetetions of the rheobase level spike for each cell.
 
 **3. Short Square Pulse**
 
