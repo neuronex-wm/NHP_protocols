@@ -1,0 +1,3 @@
+
+
+powershell.exe -noexit "& 'C:\Users\MFeyerabend\AppData\Local\Programs\Python\Python37\python.exe' C:\Users\MFeyerabend\AppData\Local\Programs\Python\Python37\Lib\site-packages\ipfx\bin\mcc_get_settings.py --settingsFile C:\Users\MFeyerabend\AppData\Local\Programs\Python\Python37\Lib\site-packages\ipfx\bin\misc-settings.json --watchFolder  C:\Users\MFeyerabend\Documents\'Molecular Devices'\pCLAMP\Data"
