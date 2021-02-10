@@ -15,7 +15,7 @@ Different "stimulus segments"/epoches are separated by "\\".
   
   __**c.** except when measuring the membrane potential within the first minute(s) after breakthrough, a holding current is applied to keep the baseline from drifting. The readjustment can be done either manually or automatically using algorithms as provided in MIES.
 
-**1. Ramp**
+**1. Ramp (optional)**
 
   __**a.** 3 repetetions of single sweep of \\ 20 s 0-to-500 pA Ramp (slope: 25 pA/s) terminated manually after a series of action potentials are acquired) with an 
      interstimulus\interrepettion intervall of >10 seconds.
