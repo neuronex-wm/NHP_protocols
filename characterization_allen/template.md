@@ -1,7 +1,7 @@
 # template
 
 Here is a preliminary working template based on protocols of the first batch of the AIBS cell type database (see http://help.brain-map.org/download/attachments/8323525/CellTypes_Ephys_Overview.pdf?version=2&modificationDate=1508180425883&api=v2 in the section Appendix: Stimulus Details). 
-  Deviation are marked with ! . Please follow protocol name, order and variables as closly as possible/sensible given the differences in aquisition equipment:
+  Deviation are marked with ! . Please follow the template protocol as closly as possible/sensible given the differences in aquisition equipment:
 
 Different "stimulus segments"/epoches are separated by "\\". 
 
